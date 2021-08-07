@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.date-area i {
+  color: #1e88e5;
+  font-size: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.date-area p {
+  font-size: 20px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.date-area {
+  display: flex;
+}
+
+.box {
+  border: solid black 1px;
+  width: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 10px 20px;
+}
+.box p {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.vehicle-details {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.dropdown,
+.field {
+  padding-left: 25px;
+}
+
+.dropdown button {
+  background-color: white;
+  border: solid 1px black;
+  color: black;
+  width: min-content;
+}
+
+.field {
+  width: max-content;
+  height: 40px;
+  border: solid grey 1px;
+}
+
+.checkboxes .row {
+  margin-bottom: 20px;
+}
+
+.drop,
+.qt {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-primary,
+.btn-success,
+.btn-danger {
+  border: none;
+  padding: 9px 70px;
+}
+
+.table {
+  border: grey;
+}
+
+.table thead {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.table thead tr th {
+  text-align: center;
+}
+
+.table tbody tr td {
+  text-align: center;
+}
+
+.total {
+  text-align: right;
+  font-weight: bold;
+}
+.button {
+  float: right;
+  background-color: violet;
+}
+
+.white-space {
+  height: 200px;
+}
